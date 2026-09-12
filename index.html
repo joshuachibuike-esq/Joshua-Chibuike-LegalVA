@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Joshua Chibuike — Volunteer Legal Virtual Assistant</title>
+<title>Joshua Chibuike | Volunteer Legal Virtual Assistant</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
@@ -263,6 +263,67 @@
     }
   }
 
+  /* About section */
+  .about-copy{
+    color: var(--ink-soft);
+    max-width: 62ch;
+    font-size: 1rem;
+    margin: 0 0 22px;
+  }
+  .about-copy.small{
+    font-size: 0.92rem;
+    margin: 16px 0 26px;
+  }
+  .value-chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .chip{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--navy);
+    background: var(--parchment-dim);
+    border: 1px solid var(--gold);
+    border-radius: 999px;
+  }
+  .automation-strip{
+    margin-top: 8px;
+    padding: 24px;
+    background: var(--navy);
+    border-radius: 2px;
+  }
+  .automation-label{
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    color: var(--gold);
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+  .automation-tools{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .tool-tag{
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--navy);
+    background: var(--gold);
+    border-radius: 3px;
+  }
+  .automation-strip p{
+    color: var(--parchment-dim);
+    margin: 0;
+    font-size: 0.94rem;
+    max-width: 58ch;
+  }
+
   /* Footer */
   footer{
     background: var(--navy-deep);
@@ -290,6 +351,10 @@
     color: var(--parchment);
     font-size: 0.95rem;
   }
+  .social-links{
+    display: flex;
+    gap: 18px;
+  }
 
   @media (max-width: 560px){
     .hero{ padding: 52px 0 36px; }
@@ -316,10 +381,38 @@
   <div class="wrap">
     <div class="kicker">Available now, at no cost</div>
     <h1>I'm volunteering my time as a Legal Virtual Assistant.</h1>
-    <p class="lede">If your firm, legal department, executive office, or VA practice has more on its plate than hours in the week, I'd like to help carry some of it — unpaid, and on purpose.</p>
+    <p class="lede">If your firm, legal department, executive office, or VA practice has more on its plate than hours in the week, I'd like to help carry some of it. Unpaid, and on purpose.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://calendly.com/joshuachibuike25/30min" target="_blank" rel="noopener">Book a discovery call</a>
       <a class="btn btn-secondary" href="https://mail.google.com/mail/?view=cm&fs=1&to=joshuachibuike25@gmail.com&su=Quick%20Question%20-%20Volunteer%20Legal%20VA&body=Hi%20Joshua%2C%0A%0ABefore%20booking%20a%20call%2C%20I%20had%20a%20quick%20question%3A%0A%0A" target="_blank" rel="noopener">Ask a question first</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p class="about-copy">I started out doing general administrative work: calendars, inboxes, scheduling, and the everyday tasks that keep an office moving. From there I grew into Executive Assistant work, supporting founders and executives directly with higher-stakes, higher-trust responsibilities. Along the way, I built real depth in AI-powered workflow automation, and today I also work as a Legal Virtual Assistant and Legal Operations Specialist, backed by my LL.B. That means I bring legal context to the operational work I do, not just task execution.</p>
+
+    <div class="value-chips">
+      <span class="chip">Confidentiality</span>
+      <span class="chip">Trust</span>
+      <span class="chip">Performance</span>
+      <span class="chip">Excellence</span>
+      <span class="chip">Productivity</span>
+      <span class="chip">Problem-solving</span>
+      <span class="chip">Legal acumen</span>
+    </div>
+    <p class="about-copy small">These aren't just words on a page. They're what I try to deploy in practice, whether I'm handling sensitive documents for an executive or supporting a legal team's day-to-day operations.</p>
+
+    <div class="automation-strip">
+      <div class="automation-label">AI Automation Toolkit</div>
+      <div class="automation-tools">
+        <span class="tool-tag">Zapier</span>
+        <span class="tool-tag">Make</span>
+        <span class="tool-tag">n8n</span>
+      </div>
+      <p>I design and build automated workflows that take repetitive, manual work off your plate, connecting the tools you already use so tasks move without someone having to push them along.</p>
     </div>
   </div>
 </div>
@@ -336,7 +429,7 @@
       <li><strong>Clio Manage &amp; workflow support</strong>Organisation, task assignment, and day-to-day workflow upkeep.</li>
       <li><strong>Task &amp; administrative support</strong>The recurring, necessary work that quietly eats a week.</li>
       <li><strong>Process automation</strong>Setting up workflows so repeat tasks take less manual effort.</li>
-      <li><strong>Other legal operations tasks</strong>Within my competence — if it's not listed here, ask anyway.</li>
+      <li><strong>Other legal operations tasks</strong>Within my competence. If it's not listed here, ask anyway.</li>
     </ul>
   </div>
 </div>
@@ -344,9 +437,9 @@
 <div class="section">
   <div class="wrap">
     <div class="why-block">
-      <p><strong>Why unpaid, on purpose.</strong> I'm not doing this just to log hours. I want real, hands-on exposure to legal support, administration, operations, workflow management, and automation — the kind you only get by working inside a team's actual pace and pressure, not around it.</p>
+      <p><strong>Why unpaid, on purpose.</strong> I'm not doing this just to log hours. I want real, hands-on exposure to legal support, administration, operations, workflow management, and automation, the kind you only get by working inside a team's actual pace and pressure, not around it.</p>
       <p>In return, I want to move the needle, not just observe: fewer repetitive tasks on your desk, cleaner organisation, deadlines met, and more of your day freed up for the work that actually needs you.</p>
-      <p>That's the trade I'm proposing — practical experience and deeper exposure for me, real operational relief for your firm, department, or team.</p>
+      <p>That's the trade I'm proposing: practical experience and deeper exposure for me, real operational relief for your firm, department, or team.</p>
     </div>
   </div>
 </div>
@@ -368,7 +461,7 @@
         <div class="num">2</div>
         <div>
           <h3>Clarification</h3>
-          <p>We confirm scope — what I'll take on, what tools I'll need access to, and how we'll communicate.</p>
+          <p>We confirm scope: what I'll take on, what tools I'll need access to, and how we'll communicate.</p>
           <a class="step-cta" href="https://mail.google.com/mail/?view=cm&fs=1&to=joshuachibuike25@gmail.com&su=Clarification%20-%20Volunteer%20Legal%20VA" target="_blank" rel="noopener">Ask for this step →</a>
         </div>
       </div>
@@ -376,7 +469,7 @@
         <div class="num">3</div>
         <div>
           <h3>Onboarding</h3>
-          <p>Access, systems, and a first task — set up so I can start contributing without adding to your workload.</p>
+          <p>Access, systems, and a first task, set up so I can start contributing without adding to your workload.</p>
           <a class="step-cta" href="https://mail.google.com/mail/?view=cm&fs=1&to=joshuachibuike25@gmail.com&su=Start%20Onboarding%20-%20Volunteer%20Legal%20VA" target="_blank" rel="noopener">Start onboarding →</a>
         </div>
       </div>
@@ -387,7 +480,7 @@
 <div class="section">
   <div class="wrap">
     <h2>Need a general virtual assistant or a workflow automation specialist?</h2>
-    <p class="sub">The same offer stands beyond legal work — calendar and inbox management, scheduling, admin support, research, documentation, and setting up automation for repetitive tasks.</p>
+    <p class="sub">The same offer stands beyond legal work: calendar and inbox management, scheduling, admin support, research, documentation, and setting up automation for repetitive tasks.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://calendly.com/joshuachibuike25/30min" target="_blank" rel="noopener">Book a discovery call</a>
       <a class="btn btn-secondary" href="https://mail.google.com/mail/?view=cm&fs=1&to=joshuachibuike25@gmail.com&su=Quick%20Question%20-%20Volunteer%20VA%20%2F%20Automation&body=Hi%20Joshua%2C%0A%0ABefore%20booking%20a%20call%2C%20I%20had%20a%20quick%20question%3A%0A%0A" target="_blank" rel="noopener">Ask a question first</a>
@@ -403,7 +496,7 @@
       <div class="book-kicker">Also from me</div>
       <h2 class="book-title">Sign or Suffer</h2>
       <p class="book-tagline">The no-nonsense contract guide every business owner needs before the next deal goes wrong.</p>
-      <p>Most disputes don't start with bad faith — they start with a poorly drafted agreement. This book breaks down how to spot the gaps before they cost you.</p>
+      <p>Most disputes don't start with bad faith. They start with a poorly drafted agreement. This book breaks down how to spot the gaps before they cost you.</p>
       <a class="btn btn-primary" href="https://selar.com/vs48727448" target="_blank" rel="noopener">Get the book on Selar</a>
     </div>
   </div>
@@ -412,7 +505,10 @@
 <footer>
   <div class="wrap">
     <div class="signoff">You focus on the work only you can do. I'll help with the rest.</div>
-    <a href="https://www.linkedin.com/in/joshua-chibuike-47b6b6327" target="_blank" rel="noopener">LinkedIn ↗</a>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/joshua-chibuike-47b6b6327" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://www.facebook.com/profile.php?id=61586891824742&mibextid=ZbWKwL" target="_blank" rel="noopener">Facebook ↗</a>
+    </div>
   </div>
 </footer>
 
